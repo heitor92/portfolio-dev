@@ -1,0 +1,69 @@
+/* Tipografia */
+.title-lg {
+  font: var(--title-lg);
+}
+
+.title-md {
+  font: var(--title-md);
+}
+
+.title-sm {
+  font: var(--title-sm);
+}
+
+.subtitle {
+  font: var(--subtitle);
+}
+
+.text-md {
+  font: var(--text-md);
+}
+
+.text-sm {
+  font: var(--text-sm);
+}
+
+/* cores */
+.color-red {
+  color: var(--red);
+}
+
+.color-purple {
+  color: var(--purple);
+}
+
+.color-blue {
+  color: var(--blue);
+}
+
+.color-green {
+  color: var(--green);
+}
+
+.color-yellow {
+  color: var(--yellow);
+}
+
+.color-gray-100 {
+  color: var(--gray-100);
+}
+
+.color-gray-200 {
+  color: var(--gray-200);
+}
+
+.color-gray-300 {
+  color: var(--gray-300);
+}
+
+.color-gray-400 {
+  color: var(--gray-400);
+}
+
+.color-gray-500 {
+  color: var(--gray-500);
+}
+
+.color-gray-600 {
+  color: var(--gray-600);
+}

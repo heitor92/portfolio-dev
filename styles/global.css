@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
 :root {
   /* Cores Principais */
   --red: #E3646E;
@@ -35,6 +40,8 @@
   
 }
 
-/* body {
-
-} */
+body {
+  font: var(--text-md);
+  color: var(--gray-200);
+  background-color: var(--gray-500);
+}
