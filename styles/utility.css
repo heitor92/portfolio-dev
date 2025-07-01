@@ -67,3 +67,11 @@
 .color-gray-600 {
   color: var(--gray-600);
 }
+/* layout */
+.grid {
+  display: grid;
+}
+
+.grid-auto-rows {
+  grid-auto-rows: min-content;
+}

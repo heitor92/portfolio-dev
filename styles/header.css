@@ -1,0 +1,51 @@
+#intro {
+  background-image: url(../assets/images/Background_Intro.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  align-items: center;
+  justify-items: center;
+
+  height: 100vh;
+
+  .container-imagem {
+    position: relative;
+    width: 112px;
+    height: 112px;
+  }
+
+  #avatar {
+    position: absolute;
+    width: 96px;
+    border-radius: 50%;
+    object-fit: cover;
+    outline: 3px solid var(--red);
+    outline-offset: 3px;
+  }
+
+  #icone-code {
+    background-image: url(../assets/icons/Code.svg);
+    display: inline-block;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    bottom: 9px;
+    right: 9px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .sobre {
+    width: 680px;
+    align-items: center;
+    justify-items: center;
+
+    p:last-of-type {
+      text-align: center;
+    }
+  }
+
+}
