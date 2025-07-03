@@ -74,14 +74,63 @@
 
 .grid-flow-row {
   grid-auto-flow: row;
-  grid-auto-rows: max-content;
 }
 
 .grid-flow-col {
   grid-auto-flow: column;
-  grid-auto-columns: max-content;
 }
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* .grid-rows-2 {
+  grid-template-rows: repeat(2, 1fr);
+} */
 
 .gap-16 {
   gap: 16px;
+}
+
+/* icons */
+
+.icon-caret-double-down {
+  mask: url(../assets/icons/CaretDoubleDown.svg) no-repeat center;
+  mask-size: contain;
+  background-color: var(--gray-300);
+}
+.icon-html {
+  mask: url(../assets/icons/HTML.svg) no-repeat center;
+  mask-size: contain;
+  background-color: var(--red);
+}
+
+.icon-github {
+  mask: url(../assets/icons/GitHub.svg) no-repeat center;
+  mask-size: contain;
+  background-color: var(--gray-200);
+}
+
+.icon-css {
+  mask: url(../assets/icons/CSS.svg) no-repeat center;
+  mask-size: contain;
+  background-color: var(--blue);
+}
+
+.icon-javascript {
+  mask: url(../assets/icons/JavaScript.svg) no-repeat center;
+  mask-size: contain;
+  background-color: var(--yellow);
+}
+
+.icon-react {
+  mask: url(../assets/icons/React.svg) no-repeat center;
+  mask-size: contain;
+  background-color: var(--blue);
+}
+
+.icon-node {
+  mask: url(../assets/icons/Node.js.svg) no-repeat center;
+  mask-size: contain;
+  background-color: var(--green);
 }

@@ -1,0 +1,44 @@
+#projects {
+  justify-items: center;
+
+  div:first-of-type {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    margin-block: 72px 56px;
+  }
+
+  .projects-cards {
+    margin-inline: 163px;
+    margin-bottom: 144px;
+    gap: 24px;
+
+    figure {
+      border-radius: 12px;
+      background-color: var(--gray-400);
+      width: 330px;
+      height: 280px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding: 12px;
+
+      img {
+        display: block;
+        margin: 0 auto;
+        width: 306px;
+        height: 156px;
+        object-fit: cover;
+        border-radius: 8px;
+      }
+
+      figcaption {
+        display: flex;
+        flex-direction: column;
+        padding: 4px;
+        gap: 8px;
+      }
+    }
+  }
+}

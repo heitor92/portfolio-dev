@@ -4,17 +4,20 @@
   background-repeat: no-repeat;
   background-position: center;
   justify-items: center;
-  height: 100vh;
+
+  .icon {
+    width: 32px;
+    height: 32px;
+  }
 
   .container-imagem-avatar {
     position: relative;
     width: 112px;
     height: 112px;
-    margin-block: 100px 56px;
+    margin-block: 120px 56px;
   }
 
   .avatar {
-    /* position: absolute; */
     width: 96px;
     border-radius: 50%;
     object-fit: cover;
@@ -38,7 +41,6 @@
 
   .sobre {
     width: 680px;
-    align-items: center;
     justify-items: center;
 
     h1 {
@@ -59,7 +61,6 @@
       height: 40px;
       display: flex;
       align-items: center;
-      justify-content: center;
       gap: 8px;
       padding: 8px 16px;
 
@@ -67,44 +68,6 @@
         width: 24px;
         height: 24px;
       }
-
-      .icon-html {
-        mask: url(../assets/icons/HTML.svg) no-repeat center;
-        mask-size: contain;
-        background-color: var(--red);
-      }
-
-      .icon-github {
-        mask: url(../assets/icons/GitHub.svg) no-repeat center;
-        mask-size: contain;
-        background-color: var(--gray-200);
-      }
-
-      .icon-css {
-        mask: url(../assets/icons/CSS.svg) no-repeat center;
-        mask-size: contain;
-        background-color: var(--blue);
-      }
-
-      .icon-javascript {
-        mask: url(../assets/icons/JavaScript.svg) no-repeat center;
-        mask-size: contain;
-        background-color: var(--yellow);
-      }
-
-      .icon-react {
-        mask: url(../assets/icons/React.svg) no-repeat center;
-        mask-size: contain;
-        background-color: var(--blue);
-      }
-
-      .icon-node {
-        mask: url(../assets/icons/Node.js.svg) no-repeat center;
-        mask-size: contain;
-        background-color: var(--green);
-      }
     }
-
   }
-
 }
