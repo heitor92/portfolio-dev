@@ -3,20 +3,18 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-
-  align-items: center;
   justify-items: center;
-
   height: 100vh;
 
-  .container-imagem {
+  .container-imagem-avatar {
     position: relative;
     width: 112px;
     height: 112px;
+    margin-block: 100px 56px;
   }
 
-  #avatar {
-    position: absolute;
+  .avatar {
+    /* position: absolute; */
     width: 96px;
     border-radius: 50%;
     object-fit: cover;
@@ -43,9 +41,70 @@
     align-items: center;
     justify-items: center;
 
+    h1 {
+      margin-block: 8px 20px;
+    }
+
     p:last-of-type {
       text-align: center;
     }
+  }
+
+  .tags {
+    margin-block: 80px 94px;
+
+    div {
+      background-color: var(--gray-400);
+      border-radius: 999px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 8px 16px;
+
+      .icon {
+        width: 24px;
+        height: 24px;
+      }
+
+      .icon-html {
+        mask: url(../assets/icons/HTML.svg) no-repeat center;
+        mask-size: contain;
+        background-color: var(--red);
+      }
+
+      .icon-github {
+        mask: url(../assets/icons/GitHub.svg) no-repeat center;
+        mask-size: contain;
+        background-color: var(--gray-200);
+      }
+
+      .icon-css {
+        mask: url(../assets/icons/CSS.svg) no-repeat center;
+        mask-size: contain;
+        background-color: var(--blue);
+      }
+
+      .icon-javascript {
+        mask: url(../assets/icons/JavaScript.svg) no-repeat center;
+        mask-size: contain;
+        background-color: var(--yellow);
+      }
+
+      .icon-react {
+        mask: url(../assets/icons/React.svg) no-repeat center;
+        mask-size: contain;
+        background-color: var(--blue);
+      }
+
+      .icon-node {
+        mask: url(../assets/icons/Node.js.svg) no-repeat center;
+        mask-size: contain;
+        background-color: var(--green);
+      }
+    }
+
   }
 
 }
