@@ -134,3 +134,51 @@
   mask-size: contain;
   background-color: var(--green);
 }
+
+.icon-devices {
+  mask: url(../assets/icons/Devices.svg) no-repeat center;
+  mask-size: contain;
+  background-color: var(--purple);
+}
+
+.icon-hard-drives {
+  mask: url(../assets/icons/HardDrives.svg) no-repeat center;
+  mask-size: contain;
+  background-color: var(--yellow);
+}
+
+.icon-infinity {
+  mask: url(../assets/icons/Infinity.svg) no-repeat center;
+  mask-size: contain;
+  background-color: var(--green);
+}
+
+.icon-arrow-up-right {
+  mask: url(../assets/icons/ArrowUpRight.svg) no-repeat center;
+  mask-size: contain;
+  background-color: var(--blue);
+}
+
+.icon-linkedin {
+  mask: url(../assets/icons/LinkedinLogo.svg) no-repeat center;
+  mask-size: contain;
+  background-color: var(--gray-300);
+}
+
+.icon-instagram {
+  mask: url(../assets/icons/InstagramLogo.svg) no-repeat center;
+  mask-size: contain;
+  background-color: var(--gray-300);
+}
+
+.icon-github-logo {
+  mask: url(../assets/icons/GithubLogo.svg) no-repeat center;
+  mask-size: contain;
+  background-color: var(--gray-300);
+}
+
+.icon-envelope-simple {
+  mask: url(../assets/icons/EnvelopeSimple.svg) no-repeat center;
+  mask-size: contain;
+  background-color: var(--gray-300);
+}
